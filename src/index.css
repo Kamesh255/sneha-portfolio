@@ -1,3 +1,10 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+ 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +12,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(#6289ff , #6e6e6e  ) ;
+  background:#6289ff ;  
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif; 
+}
+p{
+  margin: 0 ;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.tJustify{
+  text-align: justify;
+}
+
+.satisfy{
+  font-family: 'Sevillana', cursive;
 }
