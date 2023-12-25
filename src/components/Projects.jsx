@@ -3,9 +3,10 @@ import AOS from 'aos';
 import './style.css'
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import { FaNodeJs} from 'react-icons/fa'; 
+import { FaNodeJs, FaPhp, FaWordpress} from 'react-icons/fa'; 
 import { DiRuby } from "react-icons/di";
-import { SiDotnet } from "react-icons/si";
+import { SiDotnet, SiWoocommerce } from "react-icons/si";
+ 
 
 
 import { TbBrandBootstrap, TbBrandCss3, TbBrandHtml5, TbBrandJavascript, TbBrandReactNative, TbBrandRedux, TbBrandTailwind } from 'react-icons/tb';
@@ -60,7 +61,7 @@ const project = [
   title : " Family Biz",
   desc : "Design a web application for managing Income related details using DotNet Core, DotNet Web API, C#",
   img: `${require('../image/pro.webp')}`,
-  tech : [<SiDotnet />, "Web API", "C#"],
+  tech : [<SiDotnet />, <FaNodeJs />,<FaPhp />],
   live: "/",  
   handl:"" 
 },
@@ -68,7 +69,7 @@ const project = [
   title : "Football league:",
   desc : ": Design a web application for managing football match details and their score using DotNet Core, DotNet Web API, C#.",
   img: `${require('../image/pro.webp')}`,
-  tech : ["Dotnet Core", "Web API", "C#"],
+  tech : [<SiDotnet />, <FaNodeJs />,<FaPhp />],
   live: "/",  
   handl:"" 
 },
@@ -76,7 +77,7 @@ const project = [
   title : "Online Examination",
   desc : "Design a web application for conducting exam using NodeJs API.",
   img: `${require('../image/pro.webp')}`,
-  tech : [ "Node JS API"],
+  tech : [ <FaNodeJs />],
   live: "/",  
   handl:"" 
 },
@@ -84,7 +85,7 @@ const project = [
   title : "Online Job Portal",
   desc : "Design a web application for searching a Job on the language of PHP",
   img: `${require('../image/pro.webp')}`,
-  tech : ['PHP'],
+  tech : [<FaPhp />],
   live: "/",   
 },
 
@@ -92,7 +93,7 @@ const project = [
   title : " Accountant Lalaji",
   desc : " Design a website using WordPress.",
   img: `${require('../image/pro.webp')}`,
-  tech : ['WordPress'],
+  tech : [<FaWordpress />],
   live: "/",   
 },
 
@@ -100,7 +101,7 @@ const project = [
   title : "Krishiparivartan",
   desc : " Design a website using WordPress.",
   img: `${require('../image/pro.webp')}`,
-  tech : ['WordPress'],
+  tech : [<FaWordpress />],
   live: "/",   
 },
 
@@ -108,7 +109,7 @@ const project = [
   title : "Bulk SMS",
   desc : " Design a website using WordPress Framework Woo-commerce",
   img: `${require('../image/pro.webp')}`,
-  tech : ['Woo-commerce'],
+  tech : [<SiWoocommerce />],
   live: "/",   
 },
       

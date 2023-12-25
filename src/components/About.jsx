@@ -65,11 +65,11 @@ const About = ({theme}) => {
                         {
                             displayedArthro.map((el,i)=>{
                                 return(
-                                    <div class='d-flex align-items-center' onClick={()=>handleImgClick(i)} style={arthro == `${el.title}` ? {cursor:'pointer',color:'#6e6e6e',transition:'1s',fontWeight:'bold'}:{cursor:'pointer',transition:'1s'}}>
+                                    <div class='d-flex align-items-center' onClick={()=>handleImgClick(i)} style={arthro == `${el.title}` ? {cursor:'pointer',color:'#0030c0',transition:'1s',fontWeight:'bold'}:{cursor:'pointer',transition:'1s'}}>
                                     <div style={{width:'fit-content'}}> 
                                         <div class='d-flex align-items-center'>
-                                            <div style={arthro == `${el.title}` ? {color:'#6e6e6e',transition:'1s'}:{transition:'1s'}}><BsFillCircleFill/></div>
-                                            <div style={arthro == `${el.title}` ? {width:'100%',height:'1px',border:'1px solid #6e6e6e',transition:'1s',}: {width:'100%',height:'1px',border:'1px solid',transition:'1s'}}></div>
+                                            <div style={arthro == `${el.title}` ? {color:'#0030c0',transition:'1s'}:{transition:'1s'}}><BsFillCircleFill/></div>
+                                            <div style={arthro == `${el.title}` ? {width:'100%',height:'1px',border:'1px solid #0030c0',transition:'1s',}: {width:'100%',height:'1px',border:'1px solid',transition:'1s'}}></div>
                                         </div>
                                         <p class='px-2 mt-2' style={{width:'fit-content',fontSize:'14px',}} >{el.title}</p>
                                     </div>  

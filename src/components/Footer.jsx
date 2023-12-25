@@ -21,10 +21,10 @@ const navigate = useNavigate()
                 </div>
 
                 <div class=' col-11 mt-3 m-auto d-flex gap-4 flex-wrap row-gap-2 '>
-                    <p class='fw-semibold fs-5' onClick={()=>navigate('/')}>Home</p> 
-                    <p class='fw-semibold fs-5' onClick={()=>navigate('/skills')}>Skills</p>
-                    <p class='fw-semibold fs-5' onClick={()=>navigate('/projects')}>Projects</p>
-                    <p class='fw-semibold fs-5' onClick={()=>navigate('/contact')}>Contact</p> 
+                    <p class='fw-semibold fs-5' style={{cursor:'pointer'}} onClick={()=>navigate('/')}>Home</p> 
+                    <p class='fw-semibold fs-5' style={{cursor:'pointer'}} onClick={()=>navigate('/skills')}>Skills</p>
+                    <p class='fw-semibold fs-5' style={{cursor:'pointer'}} onClick={()=>navigate('/projects')}>Projects</p>
+                    <p class='fw-semibold fs-5' style={{cursor:'pointer'}} onClick={()=>navigate('/contact')}>Contact</p> 
                 </div>
             </div>
             <div class='col-md-4 mt-4 text-start'>

@@ -20,8 +20,8 @@ function App() {
     <div className="App"
     style={ 
       changTheme
-        ? { background: "black", color: "#6289ff",transition:'2s',textAlign:'center' }
-        : { background: "#6289ff", color: "white",transition:'2s',textAlign:'center' }
+        ? { background: "black", color: "#91aafd",transition:'2s',textAlign:'center' }
+        : { background: "#91aafd", color: "#fefefe",transition:'2s',textAlign:'center' }
     }> 
       <ScrollToTop/>
        <Navbar theme={setChangTheme}/>
