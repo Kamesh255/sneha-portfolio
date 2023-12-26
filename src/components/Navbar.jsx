@@ -56,6 +56,8 @@ const Navbar = ({ theme }) => {
               <div class='d-flex align-items-center gap-4' >
                 <p class='fw-semibold fs-5' style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>Home</p>
                 <p class='fw-semibold fs-5' style={{ cursor: 'pointer' }} onClick={() => navigate('/skills')}>Skills</p>
+                <p class='fw-semibold fs-5' style={{ cursor: 'pointer' }} onClick={() => navigate('/experience')}>Experience</p>
+
                 <p class='fw-semibold fs-5' style={{ cursor: 'pointer' }} onClick={() => navigate('/projects')}>Projects</p>
                 <p class='fw-semibold fs-5' style={{ cursor: 'pointer' }} onClick={() => navigate('/contact')}>Contact</p>
               </div>
@@ -85,6 +87,8 @@ const Navbar = ({ theme }) => {
                     <div>
                       <p class='fw-semibold fs-2 mt-2' data-bs-dismiss="offcanvas" aria-label="Close" style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>Home</p>
                       <p class='fw-semibold fs-2 mt-2' data-bs-dismiss="offcanvas" aria-label="Close" style={{ cursor: 'pointer' }} onClick={() => navigate('/skills')}>Skills</p>
+                      <p class='fw-semibold fs-2 mt-2' data-bs-dismiss="offcanvas" aria-label="Close" style={{ cursor: 'pointer' }} onClick={() => navigate('/experience')}>Experience</p>
+
                       <p class='fw-semibold fs-2 mt-2' data-bs-dismiss="offcanvas" aria-label="Close" style={{ cursor: 'pointer' }} onClick={() => navigate('/projects')}>Projects</p>
                       <p class='fw-semibold fs-2 mt-2' data-bs-dismiss="offcanvas" aria-label="Close" style={{ cursor: 'pointer' }} onClick={() => navigate('/contact')}>Contact</p>
                     </div>

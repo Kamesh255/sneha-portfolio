@@ -14,7 +14,7 @@ const Home = ({theme}) => {
         <div class='col-md-6'>
           <br />
           <div class='col-9 m-auto my-5' data-aos="zoom-in">
-            <img src={require('../image/sneha.jpg')} style={{width:'100%',borderRadius:'50%'}} alt="" />
+            <img src={require('../image/sneha3.jpg')} class='pImg' style={{objectFit:'cover',borderRadius:'50%'}} alt="" />
           </div>
         </div>
 
@@ -27,12 +27,12 @@ const Home = ({theme}) => {
 
         <div class='col-11 row m-auto align-items-start justify-content-around gap-5 my-5'>
           <div class='col-md-5 '> 
-            <p class='fs-3 tJustify' data-aos="fade-up">I have around 4+ years of experience as a <b>Full-Stack Developer</b> . Hands-on experience working on technologies 
+            <p class='fs-3 text-start ' data-aos="fade-up">I have around 4+ years of experience as a <b>Full-Stack Developer</b> . Hands-on experience working on technologies 
             like <b>Ruby on Rails, HTML, HAML, CSS, Bootstrap, jQuery, JavaScript</b>  and cloud technologies like <b>AWS</b>  and <b> Heroku</b>.</p>
           </div>
 
           <div class='col-md-5  '> 
-            <p class='fs-3 tJustify' data-aos="fade-up">  I am holding experience working on API integration. I have worked with various types of projects on multiple 
+            <p class='fs-3 text-start' data-aos="fade-up">  I am holding experience working on API integration. I have worked with various types of projects on multiple 
             programming languages and coding as well as software testing and debugging.</p>
           </div>
         </div>

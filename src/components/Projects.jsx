@@ -15,6 +15,13 @@ import { TbBrandBootstrap, TbBrandCss3, TbBrandHtml5, TbBrandJavascript, TbBrand
 
 const project = [ 
     {
+      title : "Chofeur",
+      desc : "The ecommerce site is a custom Rails app integrated with Shopify, and it recently underwent updates to enhance its functionality. ",
+      img: `${require('../image/chofeur.png')}`,
+      tech : [ <DiRuby />,<TbBrandJavascript/>,<TbBrandCss3/>, <TbBrandHtml5/>],
+      live: "https://chofeur.com/", 
+  },
+    {
         title : "Stadium Goods",
         desc : "Design a web application for E-commerce goods using ROR. It is a ecommerce site for goods and it is the world's premier sneaker and streetwear marketplace. ",
         img: `${require('../image/stadium.png')}`,
@@ -58,20 +65,18 @@ const project = [
  
 },
 {
-  title : " Family Biz",
+  title : "Family Biz",
   desc : "Design a web application for managing Income related details using DotNet Core, DotNet Web API, C#",
-  img: `${require('../image/pro.webp')}`,
+  img: `${require('../image/familyBiz.png')}`,
   tech : [<SiDotnet />, <FaNodeJs />,<FaPhp />],
-  live: "/",  
-  handl:"" 
+  live: "https://www.familybiz.co.il/",  
 },
 {
-  title : "Football league:",
-  desc : ": Design a web application for managing football match details and their score using DotNet Core, DotNet Web API, C#.",
-  img: `${require('../image/pro.webp')}`,
+  title : "Football league",
+  desc : "Design a web application for managing football match details and their score using DotNet Core, DotNet Web API, C#.",
+  img: `${require('../image/efl.png')}`,
   tech : [<SiDotnet />, <FaNodeJs />,<FaPhp />],
-  live: "/",  
-  handl:"" 
+  live: "https://www.efl.com/",  
 },
 {
   title : "Online Examination",
@@ -79,39 +84,23 @@ const project = [
   img: `${require('../image/pro.webp')}`,
   tech : [ <FaNodeJs />],
   live: "/",  
-  handl:"" 
-},
-{
-  title : "Online Job Portal",
-  desc : "Design a web application for searching a Job on the language of PHP",
-  img: `${require('../image/pro.webp')}`,
-  tech : [<FaPhp />],
-  live: "/",   
-},
-
+}, 
 {
   title : " Accountant Lalaji",
   desc : " Design a website using WordPress.",
-  img: `${require('../image/pro.webp')}`,
+  img: `${require('../image/accountantlalaji.png')}`,
   tech : [<FaWordpress />],
-  live: "/",   
+  live: "https://accountantlalaji.com/",   
 },
 
 {
   title : "Krishiparivartan",
   desc : " Design a website using WordPress.",
-  img: `${require('../image/pro.webp')}`,
+  img: `${require('../image/krishiparivartan.png')}`,
   tech : [<FaWordpress />],
-  live: "/",   
+  live: "https://krishiparivartan.com/",   
 },
-
-{
-  title : "Bulk SMS",
-  desc : " Design a website using WordPress Framework Woo-commerce",
-  img: `${require('../image/pro.webp')}`,
-  tech : [<SiWoocommerce />],
-  live: "/",   
-},
+ 
       
 ];
 
@@ -139,7 +128,7 @@ const Projects = ({theme}) => {
                             </div>
                             <div class= "p-3">
                                 <p class='fs-1 fw-semibold'>{e.title}</p>  
-                                <p class='' style={{textAlign:'justify'}}>{e.desc}</p>  
+                                <p class='' >{e.desc}</p>  
                                 <div class='d-flex my-3'> 
                                     <p class='text-start'> <span class='fw-bold '>Project : </span> <span  class={e.status == "Completed"? 'text-success fw-bold mx-2' : "text-warning fw-bold mx-2"}>{e.status}</span> </p>
                                     <a  target='_blanck' href={`${e.live}`} class=' fw-bold text-warning'>Link</a>  
