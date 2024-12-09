@@ -27,7 +27,7 @@ const Home = ({theme}) => {
 
         <div class='col-11 row m-auto align-items-start justify-content-around gap-5 my-5'>
           <div class='col-md-5 '> 
-            <p class='fs-3 text-start ' data-aos="fade-up">I have around 4+ years of experience as a <b>Full-Stack Developer</b> . Hands-on experience working on technologies 
+            <p class='fs-3 text-start ' data-aos="fade-up">I have around 5+ years of experience as a <b>Full-Stack Developer</b> . Hands-on experience working on technologies 
             like <b>Ruby on Rails, HTML, HAML, CSS, Bootstrap, jQuery, JavaScript</b>  and cloud technologies like <b>AWS</b>  and <b> Heroku</b>.</p>
           </div>
 
