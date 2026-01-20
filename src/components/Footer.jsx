@@ -30,7 +30,7 @@ const navigate = useNavigate()
             </div>
             <div class='col-md-4 mt-4 text-start'>
                 <div class='col-11 m-auto'> 
-                    <p class='fw-semibold'>Bhopal, Madhya Pradesh, India</p> 
+                    <p class='fw-semibold'>Indore, Madhya Pradesh, India</p> 
                     <p class='fw-semibold my-2'>snehanamdev8@gmail.com</p>
                     <p class='fw-semibold'>+91 9340538340</p> 
                 </div>

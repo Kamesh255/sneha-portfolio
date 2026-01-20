@@ -14,6 +14,13 @@ import { TbBrandBootstrap, TbBrandCss3, TbBrandHtml5, TbBrandJavascript, TbBrand
 
 
 const project = [ 
+   {
+      title : "WWE & UFC scoresheet",
+      desc : "A web platform to track match results, fighter stats, event outcomes, and score summaries in a clean, user-friendly interface.",
+      img: `${require('../image/wwe.png')}`,
+      tech : [ <DiRuby />,<TbBrandJavascript/>,<TbBrandCss3/>, <TbBrandHtml5/>],
+      live: "https://www.ufc.com/scorecards", 
+  },
     {
       title : "Chofeur",
       desc : "The ecommerce site is a custom Rails app integrated with Shopify, and it recently underwent updates to enhance its functionality. ",

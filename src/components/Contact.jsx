@@ -25,7 +25,7 @@ const Contact = ({theme}) => {
                   <p><MdLocationPin /></p>
                   <p class='mt-1'>Address :</p>
               </div>
-              <p class='mx-4 fw-semibold' style={theme ? {color:'#6289ff'}:{color:'#ffffff'}}>Bhopal, Madhya Pradesh, India</p>
+              <p class='mx-4 fw-semibold' style={theme ? {color:'#6289ff'}:{color:'#ffffff'}}>Indore, Madhya Pradesh, India</p>
 
             </div>
         </div>

@@ -5,9 +5,24 @@ import { useEffect } from 'react';
  
 
 const experience = [
+     {
+        title: " Quesscorp for Client Cognizant",
+        time: "( Apr 2025 - Present )",
+        desc: "Cognizant is a global IT services and consulting company delivering digital, technology, and business solutions.",
+        img: `${require('../image/experience/cognizant.png')}`,
+        role_and_Responsibility: [
+          "Senior Ruby on Rails Developer",
+        ],
+        achievements :  [ 
+            "Collaboratewiththeproduct owner and developmentteam in daily standups.",
+            "Responsible for requirement gathering, code implementation, and reviews.",
+            "Ensurecoding standards & best practices in project development.",
+            "Worked as a Full Stack Developer at the client location."
+          ],                                                                                                                          
+      },
     {
         title: "Gammastack",
-        time: "( jan 2022 - Present )",
+        time: "( jan 2022 - Dec 2024 )",
         desc: "GammaStack is an end–to–end IT services and solutions provider which offers plethora of services accompanied with out-of-box approach.",
         img: `${require('../image/experience/gammastack_logo.jpg')}`,
         role_and_Responsibility: [
