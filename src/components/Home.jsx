@@ -20,7 +20,8 @@ const Home = ({theme}) => {
 
         <div class='col-md-6'>
             <div class='col-11 m-auto text-start'> 
-              <p class='display-3 fw-bold'  data-aos="zoom-in"style={theme ? {color:'white'}:{color:'#000000'}}>Sneha Namdev</p>
+              <p class='display-3 fw-bold' 
+               data-aos="zoom-in"style={theme ? {color:'white'}:{color:'#0a0a0a'}}>Sneha Namdev</p>
               <p class='fs-1 fw-semibold' data-aos="zoom-in">Sr. Ruby on Rails Developer</p> 
             </div>
         </div>
